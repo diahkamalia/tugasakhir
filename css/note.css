@@ -1,0 +1,42 @@
+.header{
+  margin: auto;
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width:100%;
+  padding-right: 170px;
+}
+.header a {
+  text-align: right;
+  margin: 20px;
+  display: block;
+}
+.header img{
+  margin-right: 500px;
+}
+.sidebar{
+  margin-top: 85px;
+  height: 60px;
+  width: 300px;
+  background-color: #F2DADF;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  float: left;
+  margin-left: 16px;
+  color: #F2DADF;
+  background-color: black;
+
+}
+.sidebar h2{
+    font-size: 33px;
+}
+.sidebar:hover{
+  background-color: #F2DADF;
+  transition: 0.3s;
+  color: black;
+}

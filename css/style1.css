@@ -1,0 +1,70 @@
+.header{
+  margin: auto;
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width:100%;
+  padding-right: 170px;
+}
+.header a {
+  text-align: right;
+  margin: 20px;
+  display: block;
+}
+.header img{
+  margin-right: 500px;
+}
+.sidebar{
+  margin-top: 85px;
+  height: 500px;
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  float: left;
+  margin-left: 16px;
+  color: #F2DADF;
+  background-color: black;
+
+}
+.sidebar h2{
+    font-size: 47px;
+}
+.content{
+  position: relative;
+  display: flex;
+  float: right;
+  width: 770px;
+  height: 500px;
+  top: 85px;
+  background-color:white;
+
+}
+.coba{
+  overflow-y: auto;
+
+}
+.coba ul{
+  height: 50px;
+  width: 750px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  font-weight: bolder;
+  background-color: #F2DADF;
+}
+
+.coba ul:hover{
+  background-color: black;
+  color: #F2DADF;
+  transition: 0.3s;
+}
+
+
